@@ -1,1 +1,2 @@
 # IBM-watson-language-translator
+In this project we will be using the IBM Watson APIs to create two language translators. English to French and English to German. You will be writing unit tests to test the functionality of the code you have written. You will follow the python coding conventions, and verify them by running static code analysis. Finally you will be creating a python package out of the files you have created for easy delivery to your clients.
