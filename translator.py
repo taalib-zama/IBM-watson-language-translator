@@ -3,7 +3,7 @@ from ibm_watson import LanguageTranslatorV3
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
 URL_LT="https://api.eu-gb.language-translator.watson.cloud.ibm.com/instances/d36e442f-c147-4a28-9c38-f3f431e88c42"
-APIKEY_LT = "wJ9nqYkJR1TnMYmeP94Z83wOuRomYLexU_7qVG6NpfwN"
+APIKEY_LT = "diCRgNXN1K13BwDnvVcIyik9KIZilzl0mg_Mhls_J0fO"
 VERSION = '2018-05-01'
 
 AUTHENTICATOR = IAMAuthenticator(APIKEY_LT)
