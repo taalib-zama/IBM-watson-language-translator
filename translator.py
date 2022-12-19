@@ -22,6 +22,15 @@ def englishtofrench(input_text):
     return FRENCH_TRANSLATION['translations'][0]['translation']
 
 
+def frenchtoenglish(input_text):
+    '''This function translates the user_input(french) into english'''
+
+    ENGLISH_TRANSLATION = LANGUAGE_TRANSLATOR.translate(
+        text=input_text, model_id='fr-en').get_result()
+
+    return ENGLISH_TRANSLATION['translations'][0]['translation']
+
+
 def englishtogerman(input_text):
     '''this function translates the user_input(english) into german'''
 
